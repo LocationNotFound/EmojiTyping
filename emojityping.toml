@@ -5,4 +5,4 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "my_package_name"
 version = "0.1.0"
-dependencies = []  # List any other requirements here
+dependencies = []  # Project dependecies for later

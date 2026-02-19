@@ -1,0 +1,2 @@
+class KeyToLongError(KeyError):
+    pass

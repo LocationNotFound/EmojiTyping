@@ -45,6 +45,11 @@ class EmojiPrinter():
     def change_max_length(filler, new_length:int):
         change_key_max_length(new_length)
 
+    def get(filler, key:str):
+        if len(key) > KEY_MAX_LENGTH:
+            raise KeyToLongError("Key is too long")
+        return get_emoji(key)
+
 
 
 

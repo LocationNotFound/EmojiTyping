@@ -1,4 +1,4 @@
-from EmojiTypes.typemoji import *
+from Emojitypes.typemoji import *
 
 test_ = EmojiPrinter()
 test_.type("waving_hand")

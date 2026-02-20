@@ -35,12 +35,21 @@ class EmojiPrinter():
 
 
     def random(filler):
-
         random_value = random.choice(list(emoji_list.values()))
         return random_value
+
+    def help(filler):
+        for keys, values in emoji_list.items():
+            print(f'{keys} -> {values}')
     #currently in progress
     def change_max_length(filler, new_length:int):
         change_key_max_length(new_length)
+
+
+
+
+
+
 
 
 

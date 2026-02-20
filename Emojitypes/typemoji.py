@@ -1,5 +1,5 @@
 import random
-from settings import *
+from Emojitypes.settings import *
 from Errors import KeyToLongError
 
 emoji_list = {"waving_hand":"👋",

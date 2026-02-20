@@ -17,7 +17,6 @@ emoji_list = {"waving_hand":"👋",
         }
 
 def get_emoji(key):
-    global emoji_list
     try:
         return emoji_list[key]
     except Exception:
@@ -36,10 +35,15 @@ class EmojiPrinter():
 
 
     def random(filler):
-        global emoji_list
+
         random_value = random.choice(list(emoji_list.values()))
         return random_value
     #currently in progress
     def change_max_length(filler, new_length:int):
         change_key_max_length(new_length)
+
+
+
+
+
 

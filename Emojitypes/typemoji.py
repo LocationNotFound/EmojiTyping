@@ -1,6 +1,6 @@
 import random
 from Emojitypes.settings import *
-from Emojitypes.Errors import KeyToLongError
+from Emojitypes.Errors import *
 from Emojilist.lists import *
 
 def get_emoji(key):
@@ -20,6 +20,8 @@ class EmojiPrinter():
         return ord(get_emoji(key))
 
     def emoji_fr_ascii(filler, ascii):
+        if len(ascii) > EMOJIWARNINGLENGTH:
+            raise EmojiAsciiWarning("Using chr(ascii) may be more efficient")
         return chr(ascii)
 
     def random(filler):

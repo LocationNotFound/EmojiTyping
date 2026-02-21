@@ -1,20 +1,7 @@
 import random
 from Emojitypes.settings import *
 from Emojitypes.Errors import KeyToLongError
-
-emoji_list = {"waving_hand":"👋",
-        "clapping_hands":"👏",
-        "raised_hand":"✋",
-        "victory_hand":"✌️",
-        "pinched_fingers":"🤌",
-        "korean_finger_heart":"🫰",
-        "vulcan_salute":"🖖",
-        "ok_hand":"👌",
-        "heart_hands":"🫶",
-        "thumbs_up":"👍",
-        "thumbs_down":"👎",
-        "crossed_fingers":"🤞"
-        }
+from Emojilist.lists import *
 
 def get_emoji(key):
     try:

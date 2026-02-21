@@ -22,7 +22,6 @@ def get_emoji(key):
     except Exception:
         print("Emoji not found")
 
-
 class EmojiPrinter():
     #for less typing
     def type(filler, key:str, end="\n"):
@@ -33,6 +32,8 @@ class EmojiPrinter():
     def return_ascii(filler, key:str):
         return ord(get_emoji(key))
 
+    def emoji_fr_ascii(filler, ascii):
+        return chr(ascii)
 
     def random(filler):
         random_value = random.choice(list(emoji_list.values()))

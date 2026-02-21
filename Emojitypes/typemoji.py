@@ -20,7 +20,7 @@ class EmojiPrinter():
         return ord(get_emoji(key))
 
     def emoji_fr_ascii(filler, ascii):
-        if len(ascii) > EMOJIWARNINGLENGTH:
+        if len(str(ascii)) > EMOJIWARNINGLENGTH:
             raise EmojiAsciiWarning("Using chr(ascii) may be more efficient")
         return chr(ascii)
 

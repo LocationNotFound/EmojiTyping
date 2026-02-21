@@ -1,7 +1,7 @@
 import random
 from Emojitypes.settings import *
 from Emojitypes.Errors import *
-from Emojilist.lists import *
+from Emojitypes.Emojilist.lists import *
 
 def get_emoji(key):
     try:

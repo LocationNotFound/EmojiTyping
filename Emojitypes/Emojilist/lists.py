@@ -20,6 +20,16 @@ emoji_list = {
         "blossom":"🌼",
         "sunflower":"🌻",
         "tulip":"🌷",
-        "rose":"🌹"
+        "rose":"🌹",
+        #Element Emojis
+        "droplet":"💧",
+        "water_wave":"🌊",
+        "sweat_droplets":"💦",
+        "cyclone":"🌀",
+        "bubbles":"🫧",
+        "ice_cube":"🧊",
+        "snowflake":"❄️",
+        "pouring_liquid":"🫗"
+
         }
 

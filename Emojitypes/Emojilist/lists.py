@@ -35,6 +35,13 @@ emoji_list = {
         "phoenix":"🐦‍🔥",
         "firecracker":"🧨",
         "volcano":"🌋",
-        "globe_showing_EU-Africa":"🌍"
+        "globe_showing_EU-Africa":"🌍",
+        "rock":"🪨",
+        "mountain":"⛰️",
+        "diamond":"💎",
+        "seedling":"🌱",
+        "potted_plant":"🪴",
+        "mushroom":"🍄"
+
         }
 

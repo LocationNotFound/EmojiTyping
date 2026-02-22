@@ -29,7 +29,12 @@ emoji_list = {
         "bubbles":"🫧",
         "ice_cube":"🧊",
         "snowflake":"❄️",
-        "pouring_liquid":"🫗"
-
+        "pouring_liquid":"🫗",
+        "fire":"🔥",
+        "collision":"💥",
+        "phoenix":"🐦‍🔥",
+        "firecracker":"🧨",
+        "volcano":"🌋",
+        "globe_showing_EU-Africa":"🌍"
         }
 

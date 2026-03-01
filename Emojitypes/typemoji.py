@@ -44,12 +44,12 @@ class EmojiPrinter():
 class EmojiList(list):
     def __new__(cls, *args):
         reresult = []
-        for i in args:
-            if i not in emoji_list.keys():
-                raise KeyError(f"Emoji {i} not found")
-
+        for pos, i in enumerate(args):
             if type(i) != str:
                 raise TypeError("Emoji key should be a string")
+
+            elif i not in emoji_list.keys():
+                raise KeyError(f"Emoji {i} in slice {pos} not found")
 
             else:
                 reresult.append(emoji_list[i])

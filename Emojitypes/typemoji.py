@@ -32,6 +32,7 @@ class EmojiPrinter():
         random_list = []
         for i in range(length):
             random_list.append(random.choice(list(emoji_list.values())))
+        return random_list
 
     def help(filler):
         for keys, values in emoji_list.items():

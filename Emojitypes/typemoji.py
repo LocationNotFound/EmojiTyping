@@ -28,6 +28,11 @@ class EmojiPrinter():
         random_value = random.choice(list(emoji_list.values()))
         return random_value
 
+    def random_list(filler, length:int):
+        random_list = []
+        for i in range(length):
+            random_list.append(random.choice(list(emoji_list.values())))
+
     def help(filler):
         for keys, values in emoji_list.items():
             print(f'{keys} -> {values}')
